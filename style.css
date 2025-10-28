@@ -1,11 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  background: #f3f3f3; 
+  background: #f3f3f3;
   color: #111517;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+min-height: 100vh;
+font-family: "Nunito Sans", sans-serif;
 }
 
 
@@ -30,7 +32,7 @@ body {
 
 
 .search-wrap {
-  margin-left: auto; 
+  margin-left: auto;
 }
 .search-input {
   width: 260px;
@@ -57,7 +59,7 @@ body {
 .countries-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 26px 34px; 
+  gap: 26px 34px;
 }
 
 
@@ -80,7 +82,7 @@ body {
 
 .flag img {
   width: 100%;
-  height: 160px; 
+  height: 160px;
   object-fit: cover;
   display: block;
 }
